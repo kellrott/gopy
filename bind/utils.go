@@ -5,7 +5,7 @@
 package bind
 
 import (
-	"golang.org/x/tools/go/types"
+	"go/types"
 )
 
 func isErrorType(typ types.Type) bool {
